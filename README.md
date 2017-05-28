@@ -6,7 +6,7 @@ My solution to the vending machine simulator tech test for Ticket Arena / Event 
 * coins can be identified by their "size" which is unique for each coin. I've used an arbitrary number which is the cent value multiplied by 100, eg the 50c coin has a "size" of 50, $1 is 100 etc. This allows for easier testing. In a real machine, coins would be identified by multiple properties, such as their diameter, thickness, mass etc.
 * there are three products available: Cola costing $1, Chips costing $0.50 and Candy costing $0.65
 * the machine does not run out of products and is always able to supply what the user requests
-* the machine does not run of coins and is always to supply change
+* the machine does not run out of coins and is always to supply change
 
 ## Prerequisites
 * Visual Studio 2015
