@@ -29,7 +29,7 @@ My solution to the vending machine simulator tech test for Ticket Arena / Event 
 
 ## Enhancements for the future
 * the machine could keep a count of each product it contains
-* the coins inserted could be diverted into separate internal "bins", one bin per coin type accepted. A count could be kept of the number of the number of coins in each bin and when a bin is empty, change will be made by supplying more of a lower valued coin (if available)
+* the coins inserted could be diverted into separate internal "bins", one bin per coin type accepted. A count could be kept of the number of coins in each bin and when a bin is empty, change will be made by supplying more of a lower valued coin (if available)
 * when either of the counts is low, an alert could be sent for the machine to be refilled
 * display "INVALID COIN" when the user inserts an unknown coin. This requires an additional unit test and a very small change to the code to implement. I didn't implement this feature as it wasn't in the spec
 * the list of products and their prices should be configurable
